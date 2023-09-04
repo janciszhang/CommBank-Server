@@ -27,4 +27,7 @@ public class Goal
 
     [BsonRepresentation(BsonType.ObjectId)]
     public string? UserId { get; set; }
+    
+    // Add an optional public Icon field of string type
+    public string? Icon { get; set; }
 }
